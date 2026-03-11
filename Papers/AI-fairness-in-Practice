@@ -1,0 +1,9 @@
+https://onlinelibrary.wiley.com/doi/full/10.1002/aaai.12189?msockid=0ac710c0acf66e303d3f0634ada16f43
+Wenbin Zhang
+
+Zhang, W.2024. “AI fairness in practice: Paradigm, challenges, and prospects.” AI Magazine45: 386–395. https://doi.org/10.1002/aaai.12189
+
+First published: 22 September 2024 https://doi.org/10.1002/aaai.12189Digital Object Identifier (DOI)
+
+Abstract
+Understanding and correcting algorithmic bias in artificial intelligence (AI) has become increasingly important, leading to a surge in research on AI fairness within both the AI community and broader society. Traditionally, this research operates within the constrained supervised learning paradigm, assuming the presence of class labels, independent and identically distributed (IID) data, and batch-based learning necessitating the simultaneous availability of all training data. However, in practice, class labels may be absent due to censoring, data is often represented using non-IID graph structures that capture connections among individual units, and data can arrive and evolve over time. These prevalent real-world data representations limit the applicability of existing fairness literature, which typically addresses fairness in static and tabular supervised learning settings. This paper reviews recent advances in AI fairness aimed at bridging these gaps for practical deployment in real-world scenarios. Additionally, opportunities are envisioned by highlighting the limitations and significant potential for real applications.
