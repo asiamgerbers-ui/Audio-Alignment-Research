@@ -1,3 +1,9 @@
+# RLHF: Complete Understanding
+
+**Written:** March 11, 2026 
+**Based on:** "Learning to Summarize from Human Feedback" (Stiennon et al., 2022)
+**Purpose:** Understanding RLHF methodology and demonstrating how this work implements RLHF principles in practice
+
 Reinforcement learning from human feedback (RLHF) solves a fundamental problem in AI training. Currently, models are trained to predict human text using supervised learning, but we want them to generate genuinely high-quality outputs.  These goals do not align. 
 Supervised learning models contained numerous problems: hallucinations, factual errors, and distributional shift. Distributional shift occurs because models are trained on human-written text but must generate their own text in deployment. This misalignment means models fail in ways they weren’t prepared for.  
 RLHF solves these problems by training on the model’s own generations, rather than on human text so the model can learn in the right context. The goal in training models using RLHF is alignment, not just accuracy. This means if we want a helpful, honest, and fair summarization from AI, the model must be trained with human feedback on what we actually prefer. The result is models that align with human values- they do what we want them to do.  
@@ -13,3 +19,8 @@ My role expanded to include reviewer. As a reviewer, I had two responsibilities.
 My work with AI models is critical to the RLHF cycle as my rubrics act as reward functions, my scoring as preference data, and my rubric refinement driving client policy optimization. Once this process is completed, my data is returned to the client for model training to begin again.  The evidence that my previous feedback worked appears when a new iteration begins - the previous iteration’s retraining was completed successfully and new issues now exist to address. This process - my high-quality feedback, the client’s retraining, and the emergence of new issues to solve- demonstrates RLHF created model alignment, the ultimate goal of this training method. 
 As with anything, RLHF has drawbacks. First, this training process is expensive. Therefore, who can use this method and at what scale is not standard among all AI companies. This can cause inconsistencies in models depending on the financial stability of each company. Secondly, while RLHF can create high quality outputs based on human preference and fairness, the opposite can also be true. The models can be trained to manipulate people, generate toxic content, spread misinformation, and create unhealthy dependence on technology. This can cause both ethical and social problems and is very difficult to prevent. 
 Reinforcement learning with human feedback is a powerful training tool that is used to solve a fundamental problem in AI- alignment with human preferences and expectations. Using expertly crafted, high-quality rubrics, models can learn what makes a response “good”. A good response is one that aligns with the criteria I define through my rubrics and evaluation. This type of training is not simply a theory, but a practical process used every day. I implement this process in every role I take on, which gives me complete understanding of how all the pieces work together. Understanding both the theory and practice of RLHF will serve me as I continue my journey in AI safety. 
+
+
+## References
+
+Stiennon, N., Ouyang, L., Wu, J., Ziegler, D. M., Lowe, R., Voss, C., Radford, A., & Christiano, P. (2022). Learning to summarize from human feedback. arXiv preprint arXiv:2009.01325.
