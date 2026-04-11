@@ -1,5 +1,5 @@
 # Why My Alignerr Work Is AI Safety Work: Understanding Constitutional AI
-**Written:** April 2026
+**Written:** April 11, 2026
 **Based on:** "Constitutional AI: Harmlessness from AI Feedback" (Bai et al., 2022)  
 **Purpose:** Understanding Constitutional AI and its connection to fairness-focused rubric engineering
 
